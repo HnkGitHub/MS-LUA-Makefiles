@@ -1,6 +1,6 @@
 # Use Embarcadero C 7.3 or greater to take advantage of GNU type CFLAGS!
 # Tested on bcc32 ver. 7.30, bcc32 5.5.1
-# Tested to build as STATIC or DYNAMIC: make /f Make_blnd.mak -DSTATIC=noHac
+# Tested to build as STATIC or DYNAMIC: make /f Make_blnd.mak -DSTATIC=no
 # Hack the lua.c sourcefile to enable the build as follows:
 #     	#ifdef __BORLANDC__
 #	#define _isatty isatty
