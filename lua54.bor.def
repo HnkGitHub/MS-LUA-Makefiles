@@ -1,13 +1,13 @@
-LIBRARY     LUA53.DLL
+LIBRARY     LUA54.DLL
 
 EXPORTS
-    _luaL_addlstring      	@1        
-    _luaL_addstring         @2      
-    _luaL_addvalue          @3      
-    _luaL_argerror          @4      
-    _luaL_buffinit          @5      
-    _luaL_buffinitsize      @6      
-    _luaL_callmeta          @7      
+    _luaL_addlstring      	        
+    _luaL_addstring               
+    _luaL_addvalue                
+    _luaL_argerror                
+    _luaL_buffinit                
+    _luaL_buffinitsize            
+    _luaL_callmeta                
     _luaL_checkany                
     _luaL_checkinteger            
     _luaL_checklstring            
@@ -72,7 +72,7 @@ EXPORTS
     _lua_gettable                 
     _lua_gettop                   
     _lua_getupvalue               
-    _lua_getuservalue             
+;    _lua_getuservalue             
     _lua_iscfunction              
     _lua_isinteger                
     _lua_isnumber                 
@@ -83,7 +83,7 @@ EXPORTS
     _lua_load                     
     _lua_newstate                 
     _lua_newthread                
-    _lua_newuserdata              
+;    _lua_newuserdata              
     _lua_next                     
     _lua_pcallk                   
     _lua_pushboolean              
@@ -118,7 +118,7 @@ EXPORTS
     _lua_settable                 
     _lua_settop                   
     _lua_setupvalue               
-    _lua_setuservalue             
+;    _lua_setuservalue             
     _lua_status                   
     _lua_stringtonumber           
     _lua_toboolean                
@@ -137,7 +137,7 @@ EXPORTS
     _lua_xmove                    
     _lua_yieldk                   
     _luaopen_base                 
-    _luaopen_bit32                
+;    _luaopen_bit32                
     _luaopen_coroutine            
     _luaopen_debug                
     _luaopen_io                   
