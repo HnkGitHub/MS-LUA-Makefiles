@@ -12,7 +12,7 @@ Attention! Please note that the lua.c or one of its header files needs to be hac
 Borland makefile for instructions and the hack.
 
 Place the lua54.def files in the VC and Bor directories. These definition files are not interchangeable: one is mangled. Rename
-the lua54.def.bor to lua53.def and copy it to the Bor directory. The makefiles are setup to not bother the Lua/src 
+the lua54.def.bor to lua54.def and copy it to the Bor directory. The makefiles are setup to not bother the Lua/src 
 directory. You should have a Lua/Bor and a Lua/MSVC directory. Copy the the appropriate def files into either 
 the BOR or the MSVC directory: hint, lua54.def.bor should go into the Bor directory as lua54.def. Executable files, the lua54.dll
 file, and the lib files will be in either the Bor or Vc after a successful build depending on the compiler you choose and the type of build, static or dynamic.
