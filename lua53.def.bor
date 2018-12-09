@@ -1,13 +1,13 @@
 LIBRARY     LUA53.DLL
 
 EXPORTS
-    _luaL_addlstring      	@1        
-    _luaL_addstring         @2      
-    _luaL_addvalue          @3      
-    _luaL_argerror          @4      
-    _luaL_buffinit          @5      
-    _luaL_buffinitsize      @6      
-    _luaL_callmeta          @7      
+    _luaL_addlstring      	        
+    _luaL_addstring               
+    _luaL_addvalue                
+    _luaL_argerror                
+    _luaL_buffinit                
+    _luaL_buffinitsize            
+    _luaL_callmeta                
     _luaL_checkany                
     _luaL_checkinteger            
     _luaL_checklstring            
