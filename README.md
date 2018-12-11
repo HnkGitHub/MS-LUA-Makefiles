@@ -15,8 +15,7 @@ Borland makefile for instructions and the hack.
 
 Place the lua53.def files in the VC and Bor directories. These definition files are not interchangeable: one is mangled. Rename
 the lua53.def.bor to lua53.def and copy it to the Bor directory. The makefiles are setup to not bother the Lua-5.3.5/src 
-directory. You should have a Lua-5.3.5/Bor and a Lua-5/3/5/VC directory. Copy the the appropriate def files into either 
-the BOR or the VC directory: hint, lua53.def.bor should go into the Bor directory as lua53.def. Executable files, the lua53.dll
+directory. You should have a Lua-5.3.5/Bor and a Lua-5/3/5/VC directory. Executable files, the lua53.dll
 file, and the lib files will be in either the Bor or Vc after a successful build depending on the compiler you choose.
 
 If the directory structure is setup properly and the correct def file is copied into the correct directory, everything should compile. Again read the Makefiles themselves before compiling to set the correct optimization for your CPU.
