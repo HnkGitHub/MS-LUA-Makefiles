@@ -1,0 +1,4 @@
+LIBRARY lua53.dll
+
+EXPORTS
+     
