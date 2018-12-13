@@ -1,5 +1,5 @@
 # MS-LUA-Makefiles
-MSVC Makefile and definition files, Borland Makefile and Definition Files to build Lua.
+MSVC Makefile and definition files, Borland Makefile and Definition Files to build Lua: " a powerful, efficient, lightweight, embeddable scripting language. It supports procedural programming, object-oriented programming, functional programming, data-driven programming, and data description. (https://github.com/lua)" 
 
 These files will allow you to build Lua using Microsoft Visual C++ or Borland/Embarcadero Compilers. Read the Makefiles
 for further information and help on how to setup your Lua Source Directory and set compiler options. As early as 
