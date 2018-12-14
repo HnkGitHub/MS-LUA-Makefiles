@@ -1,8 +1,17 @@
 # MS-LUA-Makefiles
-MSVC Makefile and definition files, Borland Makefile and Definition Files to build Lua.
+Read this file in its entirety before building!
+
+MSVC Makefile and definition files, Borland Makefile and Definition Files to build Lua (https://github.com/lua) version 5.4.
+Clone lua: git clone https://github.com/lua/lua.git. 
+Clone this repository: git clone https://github.com/HnkGitHub/MS-Lus-Makefiles/MS-Lua-Makefiles.git.
+And then copy my entire directory structure and files into the lua root directory. 
+This makefile is setup not to touch the source files and puts all the object, exe files, etc. into the appropriate output directory; e.g.,
+MSVC, BOR, or BOR64.
 
 These files will allow you to build Lua using Microsoft Visual C++ or Borland/Embarcadero Compilers. Read the Makefiles
 for further information and help on how to setup your Lua Source Directory and set compiler options. You should need at least cl.exe version 15.00.xxxxx.xx to build version 5.4. Current versions--7.x or later--of Embarcadero's C compilers should build either a DLL or a static build of lua.exe. 
+
+Borland C++ 5.3 will build a DLL, 5.5.x will not. Use the Make_blnd64.mak Makefile for a 64 bit Embarcadero build! FastCall calling convention will make Lua execute even faster!
 
 Edit the Makefiles to reflect your compiler for x86, AMD64, or IA64. Yes, you can build an Itanium Architecture EXE for Lua!
 
